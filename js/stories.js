@@ -90,7 +90,6 @@ async function addStory(event) {
 
     // Add story to current user's ownStories property
     currentUser.ownStories.push(newStory);
-
     $submitForm.hide();
 
     // go back to main page view
@@ -185,7 +184,7 @@ function addTrashIcons() {
         const trashSpan = $("<span>").addClass("trash");
 
         // add click listener for the trash icon:
-        trashIcon.on("click", deleteStory);
+        trashPicture.on("click", deleteStory);
 
         // add trash icon to span, and prepend span to story li
         trashSpan.append(trashPicture);

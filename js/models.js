@@ -95,8 +95,8 @@ class StoryList {
         // add the new story to the story list
         // console.log(this.stories);
         this.stories.push(newStoryInstance);
-
         return newStoryInstance;
+        
     }
 }
 
